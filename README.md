@@ -1,4 +1,4 @@
-# telegram-channel-automation in NodeJS
+# telegram-channel-automation with zerodha in NodeJS
 
 
 Telegram Channel Scraper using **Telegram Mobile Protocol** [(MTProto)](https://core.telegram.org/mtproto) library forked from this repo **[(Telegram MTProto ES6)](https://github.com/zerobias/telegram-mtproto)**
