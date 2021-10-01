@@ -17,7 +17,12 @@ const config = {
     },
     dbfile: process.env.DB_FILE,
     chatdb: process.env.CHAR_FILE,
-    server: process.env.SERVER_URL
+    server: process.env.SERVER_URL,
+	zerodha: {
+		id: process.env.ZERODHA_ID,
+		pass: process.env.ZERODHA_PASSWORD,
+		pin: process.env.ZERODHA_PIN
+	}
 }
 
 module.exports = config;

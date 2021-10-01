@@ -1,5 +1,6 @@
 const { pluck } = require('ramda')
 const { inputField } = require('./utils/fixtures')
+const zerodha = require('./utils/zerodha-selenium')
 const config = require('./config')
 const fetch = require("node-fetch")
 const db = require('./utils/db');
@@ -54,6 +55,7 @@ const chatHistory = async (chat) => {
   
   if (usersMsg.length>0){
     //const done = await sendToServer(usersMsg)
+    await zerodha.login(usersMsg)
     printMessages(usersMsg)
     console.log("saved to server: ","All Done")
     console.log("Last msg id ", messages[0].id)

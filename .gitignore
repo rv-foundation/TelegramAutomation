@@ -1,6 +1,6 @@
 .env
 /node_modules
 /.vs
-=storage/chat.json
-=storage/db.json
-=storage/telegram.json
+storage/chat.json
+storage/db.json
+storage/telegram.json
