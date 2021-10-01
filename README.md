@@ -38,7 +38,7 @@ Then run the program
 $ node index.js
 ```
 
-It is currently set up to poll the telegram server every 60 seconds. I had trouble setting up updates from telegram so instead I set it up as setTimeout. 
+It is currently set up to poll the telegram server every second. I had trouble setting up updates from telegram so instead I set it up as setTimeout. 
 
 Send another message to your channel and watch it send to your server again.
 
