@@ -3,7 +3,7 @@
 
 Telegram Channel Scraper using **Telegram Mobile Protocol** [(MTProto)](https://core.telegram.org/mtproto) library forked from this repo **[(Telegram MTProto ES6)](https://github.com/zerobias/telegram-mtproto)**
 
-## About Telegram Channel Scraper
+## About TelegramAutomation
 
 This nodejs program was forked from **[Telegram MTProto](https://github.com/zerobias/telegram-mtproto)**
 
@@ -19,7 +19,7 @@ You can use it to grab messages from any channel (by default or user chats) and 
 
 Clone this repo. Then 
 ```bash 
-$ cd telegram-channel-scraper
+$ cd TelegramAutomation
 $ npm i
 ```
 
